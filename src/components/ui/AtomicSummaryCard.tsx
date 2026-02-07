@@ -24,7 +24,7 @@ const AtomicSummaryCard = ({
         {/* Icon Wrapper dengan warna pastel */}
         <div className={`flex h-16 w-16 items-center justify-center rounded-2xl ${iconBgColor} ${iconColor}`}>
           {/* Kita paksa ukuran icon di sini agar konsisten */}
-          {React.cloneElement(icon as React.ReactElement, { size: 28 })}
+          {React.cloneElement(icon as React.ReactElement<{ size?: number }>, { size: 28 })}
         </div>
 
         <div>
