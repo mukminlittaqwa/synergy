@@ -37,10 +37,7 @@ export default function AuthLayout({
                   
                   <div className="flex flex-col">
                     <span className="text-xl font-black tracking-tight text-white dark:text-white leading-none">
-                      SYNERGY
-                    </span>
-                    <span className="text-[10px] font-bold tracking-[0.2em] text-slate-400 uppercase leading-none mt-1">
-                      Management
+                      Management Timesheet and Project Tracking Monitoring
                     </span>
                   </div>
                 </div>

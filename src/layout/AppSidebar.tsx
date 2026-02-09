@@ -358,27 +358,10 @@ const AppSidebar: React.FC = () => {
                   
                   <div className="flex flex-col">
                     <span className="text-xl font-black tracking-tight text-black dark:text-white leading-none">
-                      SYNERGY
-                    </span>
-                    <span className="text-[10px] font-bold tracking-[0.2em] text-slate-400 uppercase leading-none mt-1">
-                      Management
+                      Management Timesheet and Project Tracking Monitoring
                     </span>
                   </div>
                 </div>
-              {/* <Image
-                className="dark:hidden"
-                src="/images/logo/logo.svg"
-                alt="Logo"
-                width={150}
-                height={40}
-              />
-              <Image
-                className="hidden dark:block"
-                src="/images/logo/logo-dark.svg"
-                alt="Logo"
-                width={150}
-                height={40}
-              /> */}
             </>
           ) : (
               <>
